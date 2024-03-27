@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1612690119274-8819a81c13a2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
 }
 
@@ -73,6 +73,7 @@ ul {
 
 li {
 
+    font-weight: 900;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +89,8 @@ li * {
 }
 
 #contactList {
-
+    
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 285px;
@@ -102,22 +104,22 @@ li * {
 }
 
 #contactList::-webkit-scrollbar {
-    width: 12px; /* Ancho del scroll */
+    width: 12px; 
 }
 
-/* Estilo para el riel del scroll */
+
 #contactList::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color de fondo del riel */
+    background: #f1f1f1; 
 }
 
-/* Estilo para el pulgar del scroll */
+
 #contactList::-webkit-scrollbar-thumb {
-    background: #5f3d3d; /* Color del pulgar del scroll */
+    background: #051d06a2; 
 }
 
-/* Estilo para el pulgar del scroll cuando se desplaza */
+
 #contactList::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color del pulgar del scroll al pasar el mouse sobre él */
+    background: #ddb1b1; 
 }
 
 footer {
@@ -134,13 +136,13 @@ footer {
 
 .fotolapicera {
     
-    position: fixed; /* Fija la posición de la imagen */
-    top: 0; /* Ajusta la posición superior */
-    left: 0; /* Ajusta la posición izquierda */
-    width: 400px; /* Ajusta el ancho de la imagen */
-    height: 90%; /* Ajusta la altura de la imagen */
-    background-size: cover; /* Escala la imagen para cubrir el contenedor */
-    background-position: left; /* Ajusta la posición de la imagen de fondo */
-    z-index: -1; /* Coloca la imagen detrás del contenido */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 300px; 
+    height: 90%; 
+    background-size: cover; 
+    background-position: left; 
+    z-index: -1; 
 
 }
